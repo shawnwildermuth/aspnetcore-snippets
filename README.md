@@ -23,6 +23,18 @@ A set of snippets including:
 - *razor-environment*: Generates an environment block.
 - *razor-raw*: Generates an @Html.Raw block.
 
+## Installation
+
+You can install the extension by visiting the store at:
+
+- https://marketplace.visualstudio.com/items?itemName=wilderminds.wilderminds-aspnetcore-snippets
+
+Or just typing this command in VS Core:
+
+    ext install wilderminds-aspnetcore-snippets
+
+## Source Code
+
 Source code is at http://github.com/shawnwildermuth/aspnetcore-snippets
 
 Please fork and send me pull requests for any additions you'd like to have!
