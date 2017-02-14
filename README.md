@@ -1,65 +1,28 @@
-# aspnetcore-snippets README
+# wilderminds-aspnetcore-snippets
 
-This is the README for your extension "aspnetcore-snippets". After writing up a brief description, we recommend including the following sections.
+This is a set of snippets for use with Visual Studio Code for ASP.NET Core development.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+A set of snippets including:
 
-For example if there is an image subfolder under your extension project workspace:
+### C# Snippets:
 
-\!\[feature X\]\(images/feature-x.png\)
+- *mvc6-action*: Creates an MVC6 Action that returns a view.
+- *mvc6-get*: Creates an MVC6 Action that Implements a basic GET.
+- *mvc6-post*: Creates an MVC6 Action that Implements a basic POST.
+- *mvc6-put*: Creates an MVC6 Action that Implements a basic PUT.
+- *mvc6-delete*: Creates an MVC6 Action that Implements a basic DELETE.
+- *mvc6-controller*: Creates an MVC6 Controller for views.
+- *mvc6-apicontroller*: Creates an MVC6 Controller for an API that implements all four basic verbs.
+- *ef-dbcontext*: Creates an Entity Framework Core DbContext class.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Razor Snippets:
 
-## Requirements
+- *razor-inject*: Generates an @inject block.
+- *razor-environment*: Generates an environment block.
+- *razor-raw*: Generates an @Html.Raw block.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Source code is at http://github.com/shawnwildermuth/aspnetcore-snippets
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Please fork and send me pull requests for any additions you'd like to have!

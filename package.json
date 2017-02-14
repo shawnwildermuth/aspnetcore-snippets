@@ -1,9 +1,13 @@
 {
-  "name": "aspnetcore-snippets",
-  "displayName": "aspnetcore-snippets",
+  "name": "wilderminds-aspnetcore-snippets",
+  "displayName": "WilderMinds' ASP.NET Core Snippets",
   "description": "Snippets for building ASP.NET Core projects in Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "wilderminds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawnwildermuth/aspnetcore-snippets"
+  },
   "engines": {
     "vscode": "^1.5.0"
   },
