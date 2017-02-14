@@ -1,0 +1,30 @@
+{	
+  "razor-import": {
+		"prefix": "mvcaction",
+		"body": [
+      ""
+    ],
+		"description": ""
+	},
+  "razor-model": {
+		"prefix": "mvcaction",
+		"body": [
+      ""
+    ],
+		"description": ""
+	},
+	"razor-environment": {
+		"prefix": "mvcaction",
+		"body": [
+      ""
+    ],
+		"description": ""
+	},
+	"razor-raw": {
+		"prefix": "mvcaction",
+		"body": [
+      ""
+    ],
+		"description": ""
+	},
+}

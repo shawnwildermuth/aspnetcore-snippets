@@ -1,0 +1,9 @@
+{
+	"aspnetcore-action": {
+		"prefix": "mvcaction",
+		"body": [
+      ""
+    ],
+		"description": ""
+	}
+}

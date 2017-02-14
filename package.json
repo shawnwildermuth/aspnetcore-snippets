@@ -1,0 +1,25 @@
+{
+  "name": "aspnetcore-snippets",
+  "displayName": "aspnetcore-snippets",
+  "description": "Snippets for building ASP.NET Core projects in Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "wilderminds",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/csharp.json"
+      },
+      {
+        "language": "razor",
+        "path": "./snippets/razor.json"
+      }
+    ]
+  }
+}
