@@ -2,7 +2,7 @@
   "name": "wilderminds-aspnetcore-snippets",
   "displayName": "WilderMinds' ASP.NET Core Snippets",
   "description": "Snippets for building ASP.NET Core projects in Visual Studio Code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "wilderminds",
   "repository": {
     "type": "git",
