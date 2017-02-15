@@ -84,7 +84,114 @@
       "  }",
       "}"
     ],
-		"description": "Creates an MVC6 Action that Implements a basic DELETE."
+		"description": "Creates an async MVC6 Action that Implements a basic DELETE."
+	},
+	"aspnetcore-action-async": {
+		"prefix": "mvc6-action-async",
+		"body": [
+      "public async Task<IActionResult> ${1:methodName}()",
+      "{",
+      "  $0",
+      "",
+      "  // TODO Remove",
+      "  await Task.Yield();",
+      "",
+      "  return View();",
+      "}"
+    ],
+		"description": "Creates an async MVC6 Action that returns a view."
+	},
+	"aspnetcore-get-async": {
+		"prefix": "mvc6-get-async",
+		"body": [
+      "[HttpGet]",
+      "public async Task<IActionResult> Get()",
+      "{",
+      "  try",
+      "  {",
+      "    $0",
+      "",
+      "    // TODO Remove",
+      "    await Task.Yield();",
+      "",
+      "    return Ok();",
+      "  }",
+      "  catch (Exception)",
+      "  {",
+      "    return BadRequest();",
+      "  }",
+      "}"
+    ],
+		"description": "Creates an async MVC6 Action that Implements a basic GET."
+	},
+	"aspnetcore-post-async": {
+		"prefix": "mvc6-post-async",
+		"body": [
+      "[HttpPost]",
+      "public async Task<IActionResult> Post([FromBody] ${1:modelType} model)",
+      "{",
+      "  try",
+      "  {",
+      "    $0",
+      "",
+      "    // TODO Remove",
+      "    await Task.Yield();",
+      "",
+      "    return Created(\"\", null);",
+      "  }",
+      "  catch (Exception)",
+      "  {",
+      "    return BadRequest();",
+      "  }",
+      "}"
+    ],
+		"description": "Creates an async MVC6 Action that Implements a basic POST."
+	},
+	"aspnetcore-put-async": {
+		"prefix": "mvc6-put-async",
+		"body": [
+      "[HttpPut]",
+      "public async Task<IActionResult> Put([FromBody] ${1:modelType} model)",
+      "{",
+      "  try",
+      "  {",
+      "    $0",
+      "",
+      "    // TODO Remove",
+      "    await Task.Yield();",
+      "",
+      "    return Ok();",
+      "  }",
+      "  catch (Exception)",
+      "  {",
+      "    return BadRequest();",
+      "  }",
+      "}"
+    ],
+		"description": "Creates an async MVC6 Action that Implements a basic PUT."
+	},
+	"aspnetcore-delete-async": {
+		"prefix": "mvc6-delete-async",
+		"body": [
+      "[HttpDelete]",
+      "public async Task<IActionResult> Delete(${1:inputType} id)",
+      "{",
+      "  try",
+      "  {",
+      "    $0",
+      "",
+      "    // TODO Remove",
+      "    await Task.Yield();",
+      "",
+      "    return Ok();",
+      "  }",
+      "  catch (Exception)",
+      "  {",
+      "    return BadRequest();",
+      "  }",
+      "}"
+    ],
+		"description": "Creates an async MVC6 Action that Implements a basic DELETE."
 	},
 	"aspnetcore-controller": {
 		"prefix": "mvc6-controller",
