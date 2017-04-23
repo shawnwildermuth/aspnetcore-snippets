@@ -328,7 +328,7 @@
       "",
       "    public DbSet<${3:DbType}> ${4:CollectionName} { get; set; }",
       "",
-      "    public override void OnModelCreating(ModelBuilder builder)",
+      "    protected override void OnModelCreating(ModelBuilder builder)",
       "    {",
       "      base.OnModelCreating(builder);",
       "",
